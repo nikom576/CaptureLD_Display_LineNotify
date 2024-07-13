@@ -85,11 +85,6 @@ namespace Line_Notify
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
 
         private  async void button4_Click(object sender, EventArgs e) // Start
         {
