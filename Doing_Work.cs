@@ -35,6 +35,7 @@ namespace Line_Notify
                 {
                     await JBot.SetLabelAsync(form.Label2, "กำลังส่งแจ้งเตือน");
                     await Cap_n_Send(form); // call cap and send
+                    Line_Notify.flag_Time_Line_Send = true;
                 }
                 else if (Line_Notify.flag_Time_Line_Send)
                 {
